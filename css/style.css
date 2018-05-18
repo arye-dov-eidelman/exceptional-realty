@@ -1,4 +1,41 @@
-p{
+/*###   genral   ###*/
+body {
+  margin: 0;
+}
+
+p {
   font-size: 1em;
   line-height: 1.5em
+}
+
+
+/*###   layout   ###*/
+
+.wraper{
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+
+.column{
+  width: 23.5%;
+  min-width: 150px;
+  padding: 0px;
+
+  float: left;
+  margin: 1%;
+}
+
+.column.column-first{
+  margin-left: 0;
+}
+
+.column.column-last{
+  margin-right: 0;
+}
+
+footer{
+  clear: both;
+  text-align: center;
 }
